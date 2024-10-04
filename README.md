@@ -97,19 +97,19 @@ def predict(w1,w2,input):
         print( [i[0] for i in input], 0)
 
 print('Input',' Output')
-test=np.array([[0],[0]])
-predict(w1,w2,test)
-test=np.array([[0],[1]])
-predict(w1,w2,test)
 test=np.array([[1],[0]])
 predict(w1,w2,test)
 test=np.array([[1],[1]])
+predict(w1,w2,test)
+test=np.array([[0],[1]])
+predict(w1,w2,test)
+test=np.array([[0],[0]])
 predict(w1,w2,test)
 ```
 
 <H3>Output:</H3>
 
-![image](https://github.com/user-attachments/assets/1229f976-0f93-488d-be18-b973656f7b18)
+![image](https://github.com/user-attachments/assets/9f0c2011-cc6f-4aa4-9438-dc8f00cbea06)
 
 <H3> Result:</H3>
 Thus, XOR classification problem can be solved using MLP in Python 
